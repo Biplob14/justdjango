@@ -34,7 +34,7 @@ class PostCreateView(generics.CreateAPIView):
     queryset = Post.objects.all()
 
 # with rest api
-# class TestView(APIView):
+# class TestView(APIView):  #TestView class inherits from APIView
 #     permission_classes = (IsAuthenticated, )
 
 #     def get(self, request, *args, **kwargs):
